@@ -1,0 +1,33 @@
+.rodape{
+   /* margin: 0px;
+    padding: 0px;*/
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    
+}
+.img{
+    width: 70px;
+}
+.s{
+    position: relative;
+    left: 10px;
+    top: 16px;
+}
+.c{
+    position: absolute;
+    left: 80pc;
+    top: 76px;
+}
+#prodape{
+    position: relative;
+    left: 10px;
+}
+#pdorodape{
+    position: absolute;
+    top: 63px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}

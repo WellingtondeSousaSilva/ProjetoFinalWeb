@@ -1,0 +1,31 @@
+#tabela{
+    margin-left: 370px;
+    margin-top: 125px;
+}
+
+h1{
+    position: absolute;
+    top: 25px;
+    left: 470px;
+    font-size: 50px;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    font-size: 20px;
+    
+}
+tr:nth-child(even){
+    background: #dddddd;
+}
+th{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    background-color: #184E77;
+}
+body{
+    margin: 0px;
+}

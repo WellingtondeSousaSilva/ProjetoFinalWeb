@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    /*background-image: url(imgdaTelaCadastro.jpeg);*/
+
+}
+a{
+    text-decoration: none;
+}
+.btn_abrir{
+    color: white;
+    font-size: 28px;
+}
+header{
+    padding: 10px;
+    /*z-index: 1;*/
+}
+header img{
+    position: absolute;
+    top: 5px;
+    right: 760px;
+    height: 60px;
+    width: 60px;
+}
+header h4{
+    display: inline;
+    position: absolute;
+    top: -2px;
+    font-size: 20px;
+    right: 575px;
+    color: white;
+}
+header a{
+    margin-left: 1448px;
+    padding-top: -10px;
+    
+}
+header i{
+    font-size: 50px;
+}
