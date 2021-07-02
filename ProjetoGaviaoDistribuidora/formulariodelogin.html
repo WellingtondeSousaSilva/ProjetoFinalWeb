@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de login</title>
+    <link rel="stylesheet" href="css/formlogin.css">
+</head>
+<body style="background-image: url(img/imgdaTelaCadastroDefinitivo.jpeg);">
+
+    <header>
+       <?php require_once "header2.php"; ?>
+    </header>
+
+    <nav>
+        <?php require_once "menu.php"; ?>
+    </nav>
+
+    <form id="formlogin" method="POST" action="php/login.php">
+
+        <h1>login</h1>
+
+        <i class="fas fa-user" style="position: absolute; right: 80; top: 196px; font-size: 20px;"></i><input type="text" name="nome" placeholder="Usuário..."  class="input">
+        <br> 
+        <i class="fas fa-key" style="position: absolute; right: 80; top: 253px; font-size: 20px;"></i><input type="text" name="senha" placeholder="Senha..."  class="input">
+        <br><br><br><br>
+        <button>Entrar</button><br><br>
+    </form>
+</body>
+</html>

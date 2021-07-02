@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/formcadastro.css">
+</head>
+<body style="background-image: url(img/imgdaTelaCadastroDefinitivo.jpeg);">
+
+    <header>
+       <?php require_once "header2.php"; ?>
+    </header>
+
+    <nav>
+        <?php require_once "menu.php"; ?>
+    </nav>
+
+    <form id="formlogin" method="POST" action="php/cadastrar.php">
+
+        <h1>CADASTRO</h1>
+
+        <i class="fas fa-user" style="position: absolute; right: 845px; top: 197px; font-size: 20px;"></i><input type="text" name="nome" placeholder="Nome..." required class="input">
+        <br> 
+        <i class="fas fa-key" style="position: absolute; right: 845px; top: 256px; font-size: 20px;"></i><input type="text" name="senha" placeholder="Senha..." required class="input">
+        <i class="fas fa-key" style="position: absolute; right: 845px; top: 310px; font-size: 20px;"></i>
+        <input type="text" name="confirmarSenha" placeholder="Confirmar..." required class="input">
+        <i class="fas fa-envelope" style="position: absolute; right: 845px; top: 367px; font-size: 20px;"></i><input type="text" name="email" placeholder="Email..." required class="input">
+        <br><br><br><br>
+        <button>cadastrar</button><br><br>
+        <img src="css/logoLoginDefinitivo.png" alt="" id="img2">
+    </form>
+
+</body>
+</html>

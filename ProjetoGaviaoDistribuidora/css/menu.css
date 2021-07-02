@@ -1,0 +1,71 @@
+nav img{
+    margin-right: 40px;
+    margin-top: 30px;
+    width: 150px;
+    height: 130px;
+    border-radius: 150px;
+}
+nav h4{
+    margin-right: 70px;
+    color: white;
+}
+nav{
+    margin-left: 1268px;
+    text-align: right;
+    height: 100%;
+    width: 0px;
+    background-color: #184E77;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /*z-index: 1;*/
+    overflow: hidden;
+    transition: width 0.3s;
+}
+nav a{
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 5px 15px;
+    /*padding: 12px 10px 12px 32px;*/
+}
+nav a:hover{
+    color: #184E77;
+    /*background-color: #168AAD;*/
+    background-color: white;
+}
+nav i{
+    font-size: 23px;
+    /*padding-right: 20px;*/
+}
+nav a #fechar{
+    padding-right: 128px;
+}
+nav a #home{
+    padding-right: 130px;
+}
+nav a #cadastrar{
+    padding-right: 98px;
+}
+nav a #logar{
+    padding-right: 130px;
+}
+nav a #fatura{
+    padding-right: 133px;
+}
+nav a #listaUsuario{
+    padding-right: 21px;
+}
+nav a #estoque{
+    padding-right: 109px;
+}
+nav a #historico{
+    padding-right: 108px;
+}
+nav a #compra{
+    padding-right: 108px;
+}
+main h1{
+    margin-top: 150px;
+    color: white;
+}
